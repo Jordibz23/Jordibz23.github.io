@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Docente</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body class="body-login">
+        <div class="content-login">
+            <h2>Inicio de Sesión</h2>
+            <form name="frmInicio" method="post" action="validar.jsp">
+                <div class="frm">
+                    <input type="text" name="txtUser" value="" required="">
+                    <label>User</label>
+                </div>
+                <div class="frm">
+                    <input type="password" name="txtPass" value="" required="">
+                    <label>Password</label>
+                </div>
+                <input class="btn" type="submit" value="Login">
+            </form>
+        </div>
+    </body>
+</html>
